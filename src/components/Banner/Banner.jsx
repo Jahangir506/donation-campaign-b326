@@ -5,7 +5,7 @@ const Banner = () => {
     <div>
 
       <Carousel className="rounded-xl">
-        <div className="relative h-96 w-full">
+        <div className="relative h-80 lg:h-96  w-full">
           <img
             src={img}
             alt="image 1"

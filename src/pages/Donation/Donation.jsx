@@ -25,7 +25,7 @@ const Donation = () => {
         </p>
       ) : (
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-12 px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-12 px-4 items-center">
             {isShow
               ? donationsCard.map((donations) => (
                   <DonationCard
@@ -43,7 +43,7 @@ const Donation = () => {
                   ))}
           </div>
 
-          <div className="flex justify-center items-center my-12">
+          <div className="flex justify-center items-center my-12 ">
             {donationsCard.length > 4 && (
               <button
                 onClick={() => setIsShow(!isShow)}
