@@ -5,7 +5,6 @@ const Details = ({ cardDetails }) => {
   const { id, picture, title, description } = cardDetails || {};
 
   const handleAddToCard = () => {
-    console.log(cardDetails);
     const donationCardAdd = [];
 
     const donationCardItems = JSON.parse(localStorage.getItem("donation"));
