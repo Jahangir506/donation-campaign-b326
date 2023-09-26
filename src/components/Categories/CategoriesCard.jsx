@@ -7,7 +7,7 @@ const CategoriesCard = ({ category }) => {
     title,
     category_name,
     picture,
-    healthCardColor,
+    colorSetup,
   } = category || {};
 
 
@@ -15,7 +15,7 @@ const CategoriesCard = ({ category }) => {
     <Link to={`/categories/${id}`}>
       <div
         className="card w-72  shadow-xl grow h-full"
-        style={{ backgroundColor: healthCardColor.card_bg }}
+        style={{ backgroundColor: colorSetup.card_bg }}
       >
         <figure>
           <img src={picture} className="w-full" alt="Shoes" />
@@ -24,15 +24,15 @@ const CategoriesCard = ({ category }) => {
           <button
             className="py-0.5 px-2 rounded text-xs backdrop-brightness-95"
             style={{
-              backgroundColor: healthCardColor.button_bg,
-              color: healthCardColor.text_color,
+              backgroundColor: colorSetup.button_bg,
+              color: colorSetup.text_color,
             }}
           >
             {category_name}
           </button>
           <p
             className="my-2 text-xl font-semibold"
-            style={{ color: healthCardColor.text_color }}
+            style={{ color: colorSetup.text_color }}
           >
             {" "}
             {title}

@@ -4,7 +4,7 @@
     "picture": "https://i.ibb.co/G2Xn70r/Health.png",
     "title": "Clean water for children",
     "category_name": "Health",
-    "healthCardColor": {
+    "colorSetup": {
       "card_bg": "#dbeafe",
       "button_bg": "#c7d2fe",
       "text_color": "#2563eb",
@@ -18,7 +18,7 @@
     "picture": "https://i.ibb.co/55tSVMf/Education.png",
     "title": "Good Education",
     "category_name": "Education",
-    "healthCardColor": {
+    "colorSetup": {
       "card_bg": "#ffe4e6",
       "button_bg": "#fecdd3",
       "text_color": "#e11d48",
@@ -32,7 +32,7 @@
     "picture": "https://i.ibb.co/Pg5nNjv/Food.png",
     "title": "Better Food for Everyone",
     "category_name": "Hunger relief",
-    "healthCardColor": {
+    "colorSetup": {
       "card_bg": "#ffedd5",
       "button_bg": "#fed7aa",
       "text_color": "#ea580c",
@@ -46,7 +46,7 @@
     "picture": "https://i.ibb.co/G2Xn70r/Health.png",
     "title": "Clean water for children",
     "category_name": "Health",
-    "healthCardColor": {
+    "colorSetup": {
       "card_bg": "#dbeafe",
       "button_bg": "#c7d2fe",
       "text_color": "#2563eb",
@@ -61,7 +61,7 @@
     "picture": "https://i.ibb.co/Pg5nNjv/Food.png ",
     "title": "Better Food for Everyone",
     "category_name": "Food security",
-    "healthCardColor": {
+    "colorSetup": {
       "card_bg": "#ffedd5",
       "button_bg": "#fed7aa",
       "text_color": "#ea580c",
@@ -75,7 +75,7 @@
     "picture": "https://i.ibb.co/55tSVMf/Education.png",
     "title": "Good Education",
     "category_name": "Education",
-    "healthCardColor": {
+    "colorSetup": {
       "card_bg": "#ffe4e6",
       "button_bg": "#fecdd3",
       "text_color": "#e11d48",
@@ -89,7 +89,7 @@
     "picture": "https://i.ibb.co/G2Xn70r/Health.png",
     "title": "Clean water for children",
     "category_name": "Health",
-    "healthCardColor": {
+    "colorSetup": {
       "card_bg": "#dbeafe",
       "button_bg": "#c7d2fe",
       "text_color": "#2563eb",
@@ -104,7 +104,7 @@
     "picture": " https://i.ibb.co/55tSVMf/Education.png",
     "title": "Good Education",
     "category_name": "Education",
-    "healthCardColor": {
+    "colorSetup": {
       "card_bg": "#ffe4e6",
       "button_bg": "#fecdd3",
       "text_color": "#db2777",
@@ -118,7 +118,7 @@
     "picture": "https://i.ibb.co/G2Xn70r/Health.png",
     "title": "Clean water for children",
     "category_name": "Health",
-    "healthCardColor": {
+    "colorSetup": {
       "card_bg": "#dbeafe",
       "button_bg": "#c7d2fe",
       "text_color": "#2563eb",
@@ -132,7 +132,7 @@
     "picture": "https://i.ibb.co/Pg5nNjv/Food.png ",
     "title": "Better Food for Everyone",
     "category_name": "Child nutrition",
-    "healthCardColor": {
+    "colorSetup": {
       "card_bg": "#ffedd5",
       "button_bg": "#fed7aa",
       "text_color": "#ea580c",
@@ -146,7 +146,7 @@
     "picture": "https://i.ibb.co/55tSVMf/Education.png",
     "title": "Good Education",
     "category_name": "Education",
-    "healthCardColor": {
+    "colorSetup": {
       "card_bg": "#ffe4e6",
       "button_bg": "#fecdd3",
       "text_color": "#e11d48",
@@ -160,7 +160,7 @@
     "picture": "https://i.ibb.co/Pg5nNjv/Food.png ",
     "title": "Better Food for Everyone",
     "category_name": "Food waste reduction",
-    "healthCardColor": {
+    "colorSetup": {
       "card_bg": "#ffedd5",
       "button_bg": "#fed7aa",
       "text_color": "#ea580c",
