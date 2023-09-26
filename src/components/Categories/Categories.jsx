@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import CategoriesCard from './CategoriesCard';
 
 const Categories = ({donationCategories}) => {
@@ -11,5 +12,9 @@ const Categories = ({donationCategories}) => {
     </div>
     );
 };
+
+Categories.propTypes = {
+    donationCategories: PropTypes.object.isRequired
+}
 
 export default Categories;
