@@ -53,7 +53,7 @@ const Details = ({ cardDetails }) => {
 };
 
 Details.propTypes = {
-  cardDetails: PropTypes.object.isRequired
+  cardDetails: PropTypes.array.isRequired
 }
 
 export default Details;
