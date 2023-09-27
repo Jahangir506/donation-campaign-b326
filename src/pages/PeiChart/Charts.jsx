@@ -5,6 +5,8 @@ const Charts = () => {
   const [donationData, setDonationData] = useState([]);
   const [peiCharts, setPeiCharts] = useState([]);
 
+  console.log(donationData.length, peiCharts.length);
+
   useEffect(() => {
     fetch("donations.json")
       .then((res) => res.json())
@@ -16,30 +18,30 @@ const Charts = () => {
     setPeiCharts(DonationAmount);
   }, []);
 
-  const allData = donationData?.map((dates) => parseInt(dates.price));
-  const datesPrice = allData?.reduce(
-    (itemPrice, currentPrice) => itemPrice + currentPrice,
-    0
-  );
+  // const allData = donationData?.map((dates) => parseInt(dates.price));
+  // const datesPrice = allData?.reduce(
+  //   (itemPrice, currentPrice) => itemPrice + currentPrice,
+  //   0
+  // );
 
-  const dataAmounts = peiCharts?.map((dates) => parseInt(dates.price));
-  const amounts = dataAmounts?.reduce(
-    (itemPrice, currentPrice) => itemPrice + currentPrice,
-    0
-  );
-  console.log(amounts);
+  // const dataAmounts = peiCharts?.map((dates) => parseInt(dates.price));
+  // const amounts = dataAmounts?.reduce(
+  //   (itemPrice, currentPrice) => itemPrice + currentPrice,
+  //   0
+  // );
+  // console.log(amounts);
 
-  const totalDonationPercentString = parseFloat(
-    (parseInt(amounts) / datesPrice) * 100
-  ).toFixed(2);
-  const totalDonationPercent = parseFloat(totalDonationPercentString);
+  const totalDonationPercentString =   peiCharts.length / donationData.length * 100
+  console.log(totalDonationPercentString);
+
+  const remainingDonationPercentage = 100 - totalDonationPercentString
 
   const data = [
-    { name: "Group A", value: 100 },
-    { name: "Group B", value: (totalDonationPercent) },
+    { name: "Group A", value: 50 },
+    { name: "Group B", value: (remainingDonationPercentage) },
   ];
 
-  const COLORS = ["#FF444A", "#00C49F"];
+  const COLORS = [ "#00C49F", "#FF444A"];
 
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({
@@ -78,7 +80,7 @@ const Charts = () => {
             cy="50%"
             labelLine={false}
             label={renderCustomizedLabel}
-            outerRadius={130}
+            outerRadius={100}
             fill="#8884d8"
           >
             {data.map((entry, index) => (
@@ -90,15 +92,15 @@ const Charts = () => {
           </Pie>
         </PieChart>
       </div>
-      <div className="flex gap-x-14 justify-center items-center">
+      <div className="flex gap-x-8 justify-center items-center">
         <div className="flex justify-center items-center">
-          <span className="mr-2 font-medium">Your Donation</span>
-          <button className="w-20 h-2 bg-[#00C49F]"></button>
+          <span className="mr-2 font-light lg:font-medium">Your Donation</span>
+          <button className="w-10 lg:w-20 h-2 bg-[#00C49F]"></button>
         </div>
 
         <div className="flex justify-center items-center">
-          <span className="mr-2 font-medium">Total Donation</span>
-          <button className="w-20 h-2 bg-[#FF444A]"></button>
+          <span className="mr-2 font-light lg:font-medium">Total Donation</span>
+          <button className="w-10 lg:w-20 h-2 bg-[#FF444A]"></button>
         </div>
       </div>
     </div>
