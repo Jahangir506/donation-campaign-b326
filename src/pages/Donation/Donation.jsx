@@ -48,9 +48,9 @@ const Donation = () => {
             {donationsCard.length > 4 && (
               <button
                 onClick={() => setIsShow(!isShow)}
-                className="px-5 bg-[#FF444A] text-white block mx-auto rounded py-1"
+                className={`px-5 bg-[#FF444A] text-white mx-auto rounded py-1 ${isShow ? 'hidden' : ''}`}
               >
-                {isShow ? "See less" : "See All"}
+                {!isShow ? "See All" : "hidden" }
               </button>
             )}
           </div>
