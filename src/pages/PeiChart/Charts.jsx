@@ -16,15 +16,14 @@ const Charts = () => {
     setPeiCharts(DonationAmount);
   }, []);
 
-  const totalDonationPercentString = peiCharts?.length / donationData?.length * 100
-  const totalDonationPercent = 100 - totalDonationPercentString;
+  const totalDonationPercent = peiCharts?.length / donationData?.length * 100
 
   const data = [
-    { name: "Group A", value: 50 },
+    { name: "Group A", value: 100 },
     { name: "Group B", value: (totalDonationPercent) },
   ];
 
-  const COLORS = ["#00C49F", "#FF444A"];
+  const COLORS = [ "#FF444A", "#00C49F"];
 
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({
