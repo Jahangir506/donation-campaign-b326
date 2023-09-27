@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import img from "../../assets/images/banner.png";
-
 const Banner = ({ handleSearch }) => {
   return (
     <div>
