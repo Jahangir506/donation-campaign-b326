@@ -4,7 +4,6 @@ import CategoryCardDetails from '../pages/CategoryCardDetails/CategoryCardDetail
 import Donation from '../pages/Donation/Donation';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import Home from '../pages/Home/Home';
-import Homes from '../pages/Homes/Homes';
 import Statistics from '../pages/Statistics/Statistics';
 
 const MyCreatedRouter = createBrowserRouter([
@@ -17,10 +16,6 @@ const MyCreatedRouter = createBrowserRouter([
                 path: '/',
                 element: <Home></Home>,
                 loader: ()=> fetch(`/donations.json`)
-            },
-            {
-                path: '/',
-                element: <Homes></Homes>
             },
             {
                 path: '/donation',

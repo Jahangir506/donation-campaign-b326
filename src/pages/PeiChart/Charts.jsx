@@ -27,6 +27,7 @@ const Charts = () => {
     (itemPrice, currentPrice) => itemPrice + currentPrice,
     0
   );
+  console.log(amounts);
 
   const totalDonationPercentString = parseFloat(
     (parseInt(amounts) / datesPrice) * 100
