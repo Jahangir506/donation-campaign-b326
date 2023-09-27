@@ -2,7 +2,9 @@ import PropTypes from "prop-types";
 import swal from "sweetalert";
 
 const Details = ({ cardDetails }) => {
-  const {picture, campaign_name, description, colorSetup } = cardDetails || {};
+  const {picture, campaign_name, description, colorSetup, price } = cardDetails || {};
+  
+  const prices = parseInt(price)
 
   const handleAddToCard = () => {
     const donationCardAdd = [];
@@ -29,7 +31,7 @@ const Details = ({ cardDetails }) => {
               onClick={handleAddToCard}
               className="px-1 lg:px-2 py-1 lg:py-2 rounded text-white" style={{backgroundColor: colorSetup?.button_background}}
             >
-              Donate $290
+              Donate ${prices}
             </button>
           </div>
         </div>
