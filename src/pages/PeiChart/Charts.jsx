@@ -16,7 +16,7 @@ const Charts = () => {
     setPeiCharts(DonationAmount);
   }, []);
 
-  const totalDonationPercentString = peiCharts.length / donationData.length * 100
+  const totalDonationPercentString = peiCharts?.length / donationData?.length * 100
   const totalDonationPercent = 100 - totalDonationPercentString;
 
   const data = [
