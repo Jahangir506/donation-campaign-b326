@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 const DonationCard = ({ donation }) => {
   const { title, price, category_name, picture, colorSetup } =
     donation || {};
+    
 
   return (
     <div className="flex grow h-full">

@@ -1,32 +1,61 @@
-import { Pie, PieChart } from "recharts";
+// import { useEffect, useState } from "react";
+// import { Pie, PieChart, ResponsiveContainer } from "recharts";
 
-const PeiChart = () => {
-  return (
-    <div>
-      <PieChart width={730} height={250}>
-        <Pie
-          data={data01}
-          dataKey="value"
-          nameKey="name"
-          cx="50%"
-          cy="50%"
-          outerRadius={50}
-          fill="#8884d8"
-        />
-        <Pie
-          data={data02}
-          dataKey="value"
-          nameKey="name"
-          cx="50%"
-          cy="50%"
-          innerRadius={60}
-          outerRadius={80}
-          fill="#82ca9d"
-          label
-        />
-      </PieChart>
-    </div>
-  );
-};
 
-export default PeiChart;
+// const PeiChart = () => {
+//   const {donationData, setDonationData} = useState([])
+//   const [peiCharts, setPeiCharts] = useState([]);
+
+//   useEffect(()=> {
+//     fetch('donations.json')
+//     .then(res => res.json())
+//     .then(data => setDonationData(data))
+//   },[])
+
+//   useEffect(() => {
+//     const DonationAmount = JSON.parse(localStorage.getItem("donation"));
+//     setPeiCharts(DonationAmount);
+//   }, []);
+
+//   const allData = donationData?.reduce((donationData, currentDonation) => donationData + currentDonation.price, 0);
+
+//   const amount = peiCharts?.reduce((donationData, currentDonation) => donationData + currentDonation.price, 0)
+
+
+//   const totalPercent = parseInt(allData)  + parseInt(amount);
+//   const totalDonationPercent = parseFloat((parseInt(amount) / totalPercent) * 100 ).toFixed(2);
+//   console.log(totalDonationPercent);
+
+//   const data = [
+//     ['Donation', 'Total donation'],
+//     ['Donation', parseInt(totalDonationPercent)],
+//     ['Total donation', 100 - parseInt(totalDonationPercent)]
+//   ];
+//   console.log(data);
+
+//  const options = {
+//   title : 'Popularity of Types of Pizza',
+//   sliceVisibilityThreshold: 0.2 // 20%
+//  }
+
+//   return (
+//     <ResponsiveContainer width="100%" height="100%">
+//         <PieChart width={400} height={400}>
+//           <Pie
+//             data={data}
+//             cx="50%"
+//             cy="50%"
+//             labelLine={false}
+//             outerRadius={80}
+//             fill="#8884d8"
+//             dataKey="value"
+//             options={options}
+//           >
+            
+//          </Pie>
+//         </PieChart>
+//       </ResponsiveContainer>
+//   );
+// };
+
+// export default PeiChart;

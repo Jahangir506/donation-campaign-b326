@@ -10,6 +10,7 @@ const Donation = () => {
 
   useEffect(() => {
     const donationItems = JSON.parse(localStorage.getItem("donation"));
+
     if (donationItems) {
       setDonations(donationItems);
     } else {

@@ -24,4 +24,5 @@ const CategoryCardDetails = () => {
   );
 };
 
+
 export default CategoryCardDetails;
