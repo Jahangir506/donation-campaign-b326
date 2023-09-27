@@ -5,8 +5,6 @@ const Charts = () => {
   const [donationData, setDonationData] = useState([]);
   const [peiCharts, setPeiCharts] = useState([]);
 
-  console.log(donationData.length, peiCharts.length);
-
   useEffect(() => {
     fetch("donations.json")
       .then((res) => res.json())
