@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import swal from "sweetalert";
 
 const Details = ({ cardDetails }) => {
-  const {picture, title, description, colorSetup } = cardDetails || {};
+  const {picture, campaign_name, description, colorSetup } = cardDetails || {};
 
   const handleAddToCard = () => {
     const donationCardAdd = [];
@@ -35,7 +35,7 @@ const Details = ({ cardDetails }) => {
         </div>
         <div className="p-6">
           <h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-            {title}
+            {campaign_name}
           </h4>
           <p className="mt-3 block font-sans text-xl font-normal leading-relaxed text-gray-700 antialiased">
             {description}

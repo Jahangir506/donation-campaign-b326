@@ -2,21 +2,20 @@
   {
     "id": 1,
     "picture": "https://i.ibb.co/2W4TVqr/health3.png",
-    "title": "Clean water for children",
     "category_name": "Health",
+    "campaign_name": "Healthcare Heroes Fund",
     "colorSetup": {
       "card_bg": "#dbeafe",
       "button_bg": "#c7d2fe",
       "text_color": "#2563eb",
       "button_background": "#2563eb"
     },
-    "description": "Every day, millions of people around the world do not have access to clean water. This can lead to a variety of health problems, including diarrhea, cholera, and typhoid. With your help, we can provide clean water to people in need and help them to stay healthy.",
+    "description": "Welcome to the Healthcare Heroes Fund, a campaign dedicated to supporting our frontline healthcare workers and improving access to healthcare services for all. With your help, we can make a lasting impact on the health and well-being of our communities.\n\nOur mission is threefold:\n\n1. **Supporting Healthcare Workers**: Your donations will provide essential protective gear, mental health resources, and recognition for the heroic efforts of our healthcare professionals who tirelessly care for the sick.\n\n2. **Enhancing Healthcare Access**: We strive to improve healthcare access in underserved areas. Your contributions will fund mobile clinics, telemedicine initiatives, and community health education programs.\n\n3. **Research and Innovation**: We are committed to advancing medical research and innovation. Your support will drive breakthroughs in treatments, vaccines, and technologies that save lives.\n\nBy contributing to the Healthcare Heroes Fund, you are joining a global community of caring individuals dedicated to a healthier future for all. Together, we can protect our heroes, expand healthcare access, and accelerate medical progress.\n\nThank you for your generosity and compassion. Your donation will make a real difference in the lives of patients and healthcare workers alike.",
     "price": "100"
   },
   {
     "id": 2,
     "picture": "https://i.ibb.co/MS0QZ6t/education3.png",
-    "title": "Good Education",
     "category_name": "Education",
     "colorSetup": {
       "card_bg": "#ffe4e6",
@@ -24,13 +23,13 @@
       "text_color": "#e11d48",
       "button_background": "#db2777"
     },
-    "description": "Millions of children around the world do not have access to basic school supplies. This can make it difficult for them to learn and succeed. With your help, we can provide school supplies to children in need and help them to reach their full potential.",
+    "campaign_name": "Good Education",
+    "description": "Welcome to the 'Brighter Horizons Initiative,' where we believe in the transformative power of education. Our mission is to light the path to a brighter future for underserved children and communities through access to quality education.\n\n**Our Mission**:\n\n- **Education for All**: Your donations will open doors to education for children who might otherwise be denied this fundamental right. We provide school supplies, scholarships, and educational resources to make learning accessible to all.\n\n- **Empowering Communities**: 'Brighter Horizons Initiative' understands that education is a community effort. Your support enables us to build libraries, classrooms, and learning centers, creating hubs of knowledge that uplift entire communities.\n\n- **Fostering Dreams**: We are committed to nurturing dreams. Your contributions fund mentorship programs, career guidance, and skill-building workshops, equipping students with the tools they need to chase their aspirations.\n\nBy contributing to our campaign, you're not just investing in education; you're investing in the potential of future leaders, innovators, and change-makers. Together, we can illuminate the path to a brighter tomorrow.\n\nThank you for joining us in this journey of empowerment. Your generosity fuels our mission to create brighter horizons for the next generation.\n\nCampaign Start Date: 2023-11-01\nCampaign End Date: 2023-12-31\nContact Email: bright_horizons@example.com\nContact Phone: +1 (555) 123-4567",
     "price": "120"
   },
   {
     "id": 3,
     "picture": "https://i.ibb.co/m6ssJ2H/food1.png",
-    "title": "Better Food for Everyone",
     "category_name": "Food",
     "colorSetup": {
       "card_bg": "#ffedd5",
@@ -38,13 +37,13 @@
       "text_color": "#ea580c",
       "button_background": "#ea580c"
     },
-    "description": "Every day, millions of people around the world go hungry. With your help, we can provide food to people in need and help them to survive.",
+    "campaign_name": "Nourish Every Heart",
+    "description": "Welcome to the 'Nourish Every Heart' campaign, where we strive to make sure no one goes to bed hungry. Join us in our mission to provide nourishment, hope, and a brighter future through the power of food.\n\n**Our Mission**:\n\n- **Ending Hunger**: Your donations will directly address food insecurity in our communities, ensuring that individuals and families have access to nutritious meals every day.\n\n- **Supporting Local Food Banks**: We collaborate with local food banks and organizations to distribute food where it's needed most. Your contributions help us stock their shelves and reach those in need.\n\n- **Empowering Communities**: 'Nourish Every Heart' is more than just a meal. It's about empowering communities. Your support enables us to run food education programs, community gardens, and skills training to break the cycle of hunger.\n\nBy donating to our campaign, you're not just filling empty stomachs; you're also filling hearts with hope. Together, we can create a world where no one has to worry about their next meal.\n\nThank you for being part of the solution. Your generosity fuels our mission to nourish every heart in need.\n\nCampaign Start Date: 2023-11-01\nCampaign End Date: 2023-12-31\nContact Email: nourisheveryheart@example.com\nContact Phone: +1 (555) 123-4567",
     "price": "310"
   },
   {
     "id": 4,
     "picture": "https://i.ibb.co/r5FqBsS/cloth1.png",
-    "title": "Clean water for children",
     "category_name": "Clothing",
     "colorSetup": {
       "card_bg": "#dcfce7",
@@ -52,14 +51,14 @@
       "text_color": "#16a34a",
       "button_background": "#16a34a"
     },
-    "description": "Cancer is a major cause of death worldwide. With your help, we can support research into new treatments for cancer and help to save lives.",
+    "campaign_name": "Threads of Compassion",
+    "description": "Welcome to the 'Threads of Compassion' campaign, where we weave together the threads of kindness and generosity to provide clothing to those in need. Our mission goes beyond garments; it's about wrapping people in warmth, dignity, and hope.\n\n**Our Mission**:\n\n- **Clothing with Purpose**: Your donations will help us provide not just any clothing but garments designed for durability, comfort, and versatility. We aim to give individuals the clothing they need to thrive, whether for job interviews, school, or daily life.\n\n- **Empowering Lives**: 'Threads of Compassion' believes in the transformative power of clothing. Your support enables us to run vocational training programs, offering skills and opportunities to those looking to improve their lives.\n\n- **Sustainable Impact**: We are committed to sustainability. Your gently used clothing donations are given new life, reducing waste and helping the environment while helping people in need.\n\nBy contributing to our campaign, you're not just donating clothing; you're helping individuals and families rebuild their lives. Together, we can make a lasting impact on the lives of those striving for a brighter future.\n\nThank you for being part of our tapestry of compassion. Your generosity and kindness help us mend lives one thread at a time.\n\nCampaign Start Date: 2023-11-01\nCampaign End Date: 2023-12-31\nContact Email: threadsofcompassion@example.com\nContact Phone: +1 (555) 123-4567",
     "price": "342"
   },
 
   {
     "id": 5,
     "picture": "https://i.ibb.co/6HfzLYD/food2.png",
-    "title": "Better Food for Everyone",
     "category_name": "Food",
     "colorSetup": {
       "card_bg": "#ffedd5",
@@ -67,13 +66,13 @@
       "text_color": "#ea580c",
       "button_background": "#ea580c"
     },
-    "description": "Food banks and soup kitchens play a vital role in providing food to people in need. With your help, we can support food banks and soup kitchens and ensure that everyone has access to the food they need.",
+    "campaign_name": "Nourish Every Heart",
+    "description": "Welcome to the 'Nourish Every Heart' campaign, where we strive to make sure no one goes to bed hungry. Join us in our mission to provide nourishment, hope, and a brighter future through the power of food.\n\n**Our Mission**:\n\n- **Ending Hunger**: Your donations will directly address food insecurity in our communities, ensuring that individuals and families have access to nutritious meals every day.\n\n- **Supporting Local Food Banks**: We collaborate with local food banks and organizations to distribute food where it's needed most. Your contributions help us stock their shelves and reach those in need.\n\n- **Empowering Communities**: 'Nourish Every Heart' is more than just a meal. It's about empowering communities. Your support enables us to run food education programs, community gardens, and skills training to break the cycle of hunger.\n\nBy donating to our campaign, you're not just filling empty stomachs; you're also filling hearts with hope. Together, we can create a world where no one has to worry about their next meal.\n\nThank you for being part of the solution. Your generosity fuels our mission to nourish every heart in need.\n\nCampaign Start Date: 2023-11-01\nCampaign End Date: 2023-12-31\nContact Email: nourisheveryheart@example.com\nContact Phone: +1 (555) 123-4567",
     "price": "210"
   },
   {
     "id": 6,
     "picture": "https://i.ibb.co/wyQbc2T/cloth2.png",
-    "title": "Good Education",
     "category_name": "Clothing",
     "colorSetup": {
       "card_bg": "#dcfce7",
@@ -81,13 +80,14 @@
       "text_color": "#16a34a",
       "button_background": "#16a34a"
     },
-    "description": "Many children from low-income families have the potential to succeed in school, but they cannot afford the tuition. With your help, we can provide scholarships to children from low-income families and help them to achieve their dreams.",
+    "campaign_name": "Threads of Compassion",
+    "description": "Welcome to the 'Threads of Compassion' campaign, where we weave together the threads of kindness and generosity to provide clothing to those in need. Our mission goes beyond garments; it's about wrapping people in warmth, dignity, and hope.\n\n**Our Mission**:\n\n- **Clothing with Purpose**: Your donations will help us provide not just any clothing but garments designed for durability, comfort, and versatility. We aim to give individuals the clothing they need to thrive, whether for job interviews, school, or daily life.\n\n- **Empowering Lives**: 'Threads of Compassion' believes in the transformative power of clothing. Your support enables us to run vocational training programs, offering skills and opportunities to those looking to improve their lives.\n\n- **Sustainable Impact**: We are committed to sustainability. Your gently used clothing donations are given new life, reducing waste and helping the environment while helping people in need.\n\nBy contributing to our campaign, you're not just donating clothing; you're helping individuals and families rebuild their lives. Together, we can make a lasting impact on the lives of those striving for a brighter future.\n\nThank you for being part of our tapestry of compassion. Your generosity and kindness help us mend lives one thread at a time.\n\nCampaign Start Date: 2023-11-01\nCampaign End Date: 2023-12-31\nContact Email: threadsofcompassion@example.com\nContact Phone: +1 (555) 123-4567",
     "price": "153"
   },
   {
     "id": 7,
     "picture": "https://i.ibb.co/rkYV1DX/health2.png",
-    "title": "Clean water for children",
+    "campaign_name": "Healthcare Heroes Fund",
     "category_name": "Health",
     "colorSetup": {
       "card_bg": "#dbeafe",
@@ -95,14 +95,13 @@
       "text_color": "#2563eb",
       "button_background": "#2563eb"
     },
-    "description": "Millions of children in developing countries do not have access to basic medical care. This can lead to preventable illnesses and deaths. With your help, we can provide medical care to children in need and help them to live healthy lives.",
+    "description": "Welcome to the Healthcare Heroes Fund, a campaign dedicated to supporting our frontline healthcare workers and improving access to healthcare services for all. With your help, we can make a lasting impact on the health and well-being of our communities.\n\nOur mission is threefold:\n\n1. **Supporting Healthcare Workers**: Your donations will provide essential protective gear, mental health resources, and recognition for the heroic efforts of our healthcare professionals who tirelessly care for the sick.\n\n2. **Enhancing Healthcare Access**: We strive to improve healthcare access in underserved areas. Your contributions will fund mobile clinics, telemedicine initiatives, and community health education programs.\n\n3. **Research and Innovation**: We are committed to advancing medical research and innovation. Your support will drive breakthroughs in treatments, vaccines, and technologies that save lives.\n\nBy contributing to the Healthcare Heroes Fund, you are joining a global community of caring individuals dedicated to a healthier future for all. Together, we can protect our heroes, expand healthcare access, and accelerate medical progress.\n\nThank you for your generosity and compassion. Your donation will make a real difference in the lives of patients and healthcare workers alike.",
     "price": "153"
   },
 
   {
     "id": 8,
     "picture": "https://i.ibb.co/27MCzF0/education2.png",
-    "title": "Good Education",
     "category_name": "Education",
     "colorSetup": {
       "card_bg": "#ffe4e6",
@@ -110,13 +109,14 @@
       "text_color": "#db2777",
       "button_background": "#db2777"
     },
-    "description": "Millions of children in developing countries do not have access to basic Education. This can lead to a lack of opportunities and a cycle of poverty. With your help, we can provide Education to children in need and help them to break the cycle of poverty.",
+    "campaign_name": "Good Education",
+    "description": "Welcome to the 'Brighter Horizons Initiative,' where we believe in the transformative power of education. Our mission is to light the path to a brighter future for underserved children and communities through access to quality education.\n\n**Our Mission**:\n\n- **Education for All**: Your donations will open doors to education for children who might otherwise be denied this fundamental right. We provide school supplies, scholarships, and educational resources to make learning accessible to all.\n\n- **Empowering Communities**: 'Brighter Horizons Initiative' understands that education is a community effort. Your support enables us to build libraries, classrooms, and learning centers, creating hubs of knowledge that uplift entire communities.\n\n- **Fostering Dreams**: We are committed to nurturing dreams. Your contributions fund mentorship programs, career guidance, and skill-building workshops, equipping students with the tools they need to chase their aspirations.\n\nBy contributing to our campaign, you're not just investing in education; you're investing in the potential of future leaders, innovators, and change-makers. Together, we can illuminate the path to a brighter tomorrow.\n\nThank you for joining us in this journey of empowerment. Your generosity fuels our mission to create brighter horizons for the next generation.\n\nCampaign Start Date: 2023-11-01\nCampaign End Date: 2023-12-31\nContact Email: bright_horizons@example.com\nContact Phone: +1 (555) 123-4567",
     "price": "265"
   },
   {
     "id": 9,
     "picture": "https://i.ibb.co/whNHwKG/Health.png",
-    "title": "Clean water for children",
+    "campaign_name": "Healthcare Heroes Fund",
     "category_name": "Health",
     "colorSetup": {
       "card_bg": "#dbeafe",
@@ -124,13 +124,12 @@
       "text_color": "#2563eb",
       "button_background": "#2563eb"
     },
-    "description": "Malaria is a preventable disease that kills millions of people each year, mostly children. With your help, we can provide mosquito nets and other malaria prevention tools to people in Africa and help to save lives.",
+    "description": "Welcome to the Healthcare Heroes Fund, a campaign dedicated to supporting our frontline healthcare workers and improving access to healthcare services for all. With your help, we can make a lasting impact on the health and well-being of our communities.\n\nOur mission is threefold:\n\n1. **Supporting Healthcare Workers**: Your donations will provide essential protective gear, mental health resources, and recognition for the heroic efforts of our healthcare professionals who tirelessly care for the sick.\n\n2. **Enhancing Healthcare Access**: We strive to improve healthcare access in underserved areas. Your contributions will fund mobile clinics, telemedicine initiatives, and community health education programs.\n\n3. **Research and Innovation**: We are committed to advancing medical research and innovation. Your support will drive breakthroughs in treatments, vaccines, and technologies that save lives.\n\nBy contributing to the Healthcare Heroes Fund, you are joining a global community of caring individuals dedicated to a healthier future for all. Together, we can protect our heroes, expand healthcare access, and accelerate medical progress.\n\nThank you for your generosity and compassion. Your donation will make a real difference in the lives of patients and healthcare workers alike.",
     "price": "249"
   },
   {
     "id": 10,
     "picture": "https://i.ibb.co/QCWnyqK/food3.png",
-    "title": "Better Food for Everyone",
     "category_name": "Food",
     "colorSetup": {
       "card_bg": "#ffedd5",
@@ -138,13 +137,13 @@
       "text_color": "#ea580c",
       "button_background": "#ea580c"
     },
-    "description": "Millions of children around the world do not have access to nutritious meals. With your help, we can provide nutritious meals to children in need and help them to grow and thrive.",
+    "campaign_name": "Nourish Every Heart",
+    "description": "Welcome to the 'Nourish Every Heart' campaign, where we strive to make sure no one goes to bed hungry. Join us in our mission to provide nourishment, hope, and a brighter future through the power of food.\n\n**Our Mission**:\n\n- **Ending Hunger**: Your donations will directly address food insecurity in our communities, ensuring that individuals and families have access to nutritious meals every day.\n\n- **Supporting Local Food Banks**: We collaborate with local food banks and organizations to distribute food where it's needed most. Your contributions help us stock their shelves and reach those in need.\n\n- **Empowering Communities**: 'Nourish Every Heart' is more than just a meal. It's about empowering communities. Your support enables us to run food education programs, community gardens, and skills training to break the cycle of hunger.\n\nBy donating to our campaign, you're not just filling empty stomachs; you're also filling hearts with hope. Together, we can create a world where no one has to worry about their next meal.\n\nThank you for being part of the solution. Your generosity fuels our mission to nourish every heart in need.\n\nCampaign Start Date: 2023-11-01\nCampaign End Date: 2023-12-31\nContact Email: nourisheveryheart@example.com\nContact Phone: +1 (555) 123-4567",
     "price": "237"
   },
   {
     "id": 11,
     "picture": "https://i.ibb.co/XZKRPkh/Education.png",
-    "title": "Good Education",
     "category_name": "Education",
     "colorSetup": {
       "card_bg": "#ffe4e6",
@@ -152,13 +151,13 @@
       "text_color": "#e11d48",
       "button_background": "#db2777"
     },
-    "description": "Millions of children around the world do not have access to a safe and secure place to learn. With your help, we can build schools in developing countries and help to provide children with the Education they deserve.",
+    "campaign_name": "Good Education",
+    "description": "Welcome to the 'Brighter Horizons Initiative,' where we believe in the transformative power of education. Our mission is to light the path to a brighter future for underserved children and communities through access to quality education.\n\n**Our Mission**:\n\n- **Education for All**: Your donations will open doors to education for children who might otherwise be denied this fundamental right. We provide school supplies, scholarships, and educational resources to make learning accessible to all.\n\n- **Empowering Communities**: 'Brighter Horizons Initiative' understands that education is a community effort. Your support enables us to build libraries, classrooms, and learning centers, creating hubs of knowledge that uplift entire communities.\n\n- **Fostering Dreams**: We are committed to nurturing dreams. Your contributions fund mentorship programs, career guidance, and skill-building workshops, equipping students with the tools they need to chase their aspirations.\n\nBy contributing to our campaign, you're not just investing in education; you're investing in the potential of future leaders, innovators, and change-makers. Together, we can illuminate the path to a brighter tomorrow.\n\nThank you for joining us in this journey of empowerment. Your generosity fuels our mission to create brighter horizons for the next generation.\n\nCampaign Start Date: 2023-11-01\nCampaign End Date: 2023-12-31\nContact Email: bright_horizons@example.com\nContact Phone: +1 (555) 123-4567",
     "price": "185"
   },
   {
     "id": 12,
     "picture": "https://i.ibb.co/ysXLPbv/cloth3.png",
-    "title": "Better Food for Everyone",
     "category_name": "Clothing",
     "colorSetup": {
       "card_bg": "#dcfce7",
@@ -166,7 +165,8 @@
       "text_color": "#16a34a",
       "button_background": "#16a34a"
     },
-    "description": "Food waste is a major problem around the world. With your help, we can fight food waste and ensure that more food is available to people in need.",
+    "campaign_name": "Threads of Compassion",
+    "description": "Welcome to the 'Threads of Compassion' campaign, where we weave together the threads of kindness and generosity to provide clothing to those in need. Our mission goes beyond garments; it's about wrapping people in warmth, dignity, and hope.\n\n**Our Mission**:\n\n- **Clothing with Purpose**: Your donations will help us provide not just any clothing but garments designed for durability, comfort, and versatility. We aim to give individuals the clothing they need to thrive, whether for job interviews, school, or daily life.\n\n- **Empowering Lives**: 'Threads of Compassion' believes in the transformative power of clothing. Your support enables us to run vocational training programs, offering skills and opportunities to those looking to improve their lives.\n\n- **Sustainable Impact**: We are committed to sustainability. Your gently used clothing donations are given new life, reducing waste and helping the environment while helping people in need.\n\nBy contributing to our campaign, you're not just donating clothing; you're helping individuals and families rebuild their lives. Together, we can make a lasting impact on the lives of those striving for a brighter future.\n\nThank you for being part of our tapestry of compassion. Your generosity and kindness help us mend lives one thread at a time.\n\nCampaign Start Date: 2023-11-01\nCampaign End Date: 2023-12-31\nContact Email: threadsofcompassion@example.com\nContact Phone: +1 (555) 123-4567",
     "price": "290"
   }
 ]

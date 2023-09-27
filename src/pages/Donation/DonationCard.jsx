@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const DonationCard = ({ donation }) => {
-  const { title, price, category_name, picture, colorSetup } =
+  const { campaign_name, price, category_name, picture, colorSetup } =
     donation || {};
     
 
@@ -28,7 +28,7 @@ const DonationCard = ({ donation }) => {
           >
             {category_name}
           </p>
-          <p className="my-2 text-lg font-bold">{title}</p>
+          <p className="my-2 text-lg font-bold">{campaign_name}</p>
           <p
             className="text-lg font-semibold"
             style={{ color: colorSetup.text_color }}

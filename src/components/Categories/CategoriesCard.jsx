@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const CategoriesCard = ({ category }) => {
   const {
     id,
-    title,
+    campaign_name,
     category_name,
     picture,
     colorSetup,
@@ -35,7 +35,7 @@ const CategoriesCard = ({ category }) => {
             style={{ color: colorSetup.text_color }}
           >
             {" "}
-            {title}
+            {campaign_name}
           </p>
         </div>
       </div>
