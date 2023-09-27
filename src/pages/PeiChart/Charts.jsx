@@ -21,24 +21,21 @@ const Charts = () => {
     (itemPrice, currentPrice) => itemPrice + currentPrice,
     0
   );
-  console.log(datesPrice);
 
   const dataAmounts = peiCharts?.map((dates) => parseInt(dates.price));
   const amounts = dataAmounts?.reduce(
     (itemPrice, currentPrice) => itemPrice + currentPrice,
     0
   );
-  console.log(amounts);
 
   const totalDonationPercentString = parseFloat(
     (parseInt(amounts) / datesPrice) * 100
   ).toFixed(2);
   const totalDonationPercent = parseFloat(totalDonationPercentString);
-  console.log(totalDonationPercent);
 
   const data = [
-    { name: "Group A", value: 400 },
-    { name: "Group B", value: totalDonationPercent },
+    { name: "Group A", value: 100 },
+    { name: "Group B", value: (totalDonationPercent) },
   ];
 
   const COLORS = ["#FF444A", "#00C49F"];

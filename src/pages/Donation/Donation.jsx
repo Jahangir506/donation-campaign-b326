@@ -50,7 +50,7 @@ const Donation = () => {
                 onClick={() => setIsShow(!isShow)}
                 className={`px-5 bg-[#FF444A] text-white mx-auto rounded py-1 ${isShow ? 'hidden' : ''}`}
               >
-                {!isShow ? "See All" : "hidden" }
+                {!isShow ? "See All" : "See less" }
               </button>
             )}
           </div>
