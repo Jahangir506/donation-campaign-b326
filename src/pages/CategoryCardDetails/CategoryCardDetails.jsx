@@ -11,7 +11,7 @@ const CategoryCardDetails = () => {
   const details = useLoaderData();
 
   useEffect(() => {
-    const detailsFind = details.find((detail) => detail.id === idInt);
+    const detailsFind = details?.find((detail) => detail?.id === idInt);
 
     setCardDetails(detailsFind);
 

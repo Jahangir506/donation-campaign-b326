@@ -3,7 +3,6 @@ import swal from "sweetalert";
 
 const Details = ({ cardDetails }) => {
   const {picture, campaign_name, description, colorSetup, price } = cardDetails || {};
-  
   const prices = parseInt(price)
 
   const handleAddToCard = () => {

@@ -16,30 +16,15 @@ const Charts = () => {
     setPeiCharts(DonationAmount);
   }, []);
 
-  // const allData = donationData?.map((dates) => parseInt(dates.price));
-  // const datesPrice = allData?.reduce(
-  //   (itemPrice, currentPrice) => itemPrice + currentPrice,
-  //   0
-  // );
-
-  // const dataAmounts = peiCharts?.map((dates) => parseInt(dates.price));
-  // const amounts = dataAmounts?.reduce(
-  //   (itemPrice, currentPrice) => itemPrice + currentPrice,
-  //   0
-  // );
-  // console.log(amounts);
-
-  const totalDonationPercentString =   peiCharts.length / donationData.length * 100
-  console.log(totalDonationPercentString);
-
-  const remainingDonationPercentage = 100 - totalDonationPercentString
+  const totalDonationPercentString = peiCharts.length / donationData.length * 100
+  const totalDonationPercent = 100 - totalDonationPercentString;
 
   const data = [
     { name: "Group A", value: 50 },
-    { name: "Group B", value: (remainingDonationPercentage) },
+    { name: "Group B", value: (totalDonationPercent) },
   ];
 
-  const COLORS = [ "#00C49F", "#FF444A"];
+  const COLORS = ["#FF444A", "#00C49F"];
 
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({

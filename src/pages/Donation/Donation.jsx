@@ -3,14 +3,11 @@ import DonationCard from "./DonationCard";
 
 const Donation = () => {
   const [donationsCard, setDonations] = useState([]);
-
   const [noDataFound, setNoDataFound] = useState(false);
-
   const [isShow, setIsShow] = useState(false);
 
   useEffect(() => {
     const donationItems = JSON.parse(localStorage.getItem("donation"));
-
     if (donationItems) {
       setDonations(donationItems);
     } else {
